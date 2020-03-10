@@ -243,7 +243,7 @@ public class GestioneDigimon {
 	}
 
 	private static void salvaDigimon(List<Digimon> listaDigimon) throws IOException {
-		File file = new File("listaDigimon.bu");
+		File file = new File("listaDigimon.bo");
 		if (!file.exists()) {
 
 			file.createNewFile();
@@ -260,7 +260,7 @@ public class GestioneDigimon {
 
 	private static List<Digimon> caricaDigimon(Scanner input) throws IOException, ClassNotFoundException {
 
-		File file = new File("listaDigimon.bu");
+		File file = new File("listaDigimon.bo");
 		if (!file.exists()) {
 
 			file.createNewFile();
